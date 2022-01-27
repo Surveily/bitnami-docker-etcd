@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  dotnet:
-    uses: Surveily/Images/.github/workflows/publish.base.yml@arm64
+  etcd:
+    uses: Surveily/bitnami-docker-etcd/.github/workflows/publish.base.yml@feature/arm
     with:
       arch: "arm64"
       dockerfile: "Dockerfile.arm64"

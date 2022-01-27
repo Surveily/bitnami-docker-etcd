@@ -1,4 +1,4 @@
-name: Build and Publish Base x86 Images
+name: Build and Publish etcd Image
 
 # This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
@@ -24,7 +24,7 @@ env:
   IMAGE_NAME: surveily/etcd
 
 jobs:
-  build-sdk:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: read
