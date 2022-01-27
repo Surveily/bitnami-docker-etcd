@@ -1,4 +1,4 @@
-name: Build and Publish etcd x86 Images
+name: Build and Publish etcd arm64 Images
 
 on:
   push:
