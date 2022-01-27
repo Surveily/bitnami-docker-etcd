@@ -13,7 +13,7 @@ on:
 
 jobs:
   dotnet:
-    uses: Surveily/Images/.github/workflows/publish.base.yml@feature//arm
+    uses: Surveily/Images/.github/workflows/publish.base.yml@feature/arm
     with:
       arch: "arm64"
       dockerfile: "Dockerfile.arm64"
